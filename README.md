@@ -19,7 +19,13 @@ A comprehensive steganography toolkit for hiding and extracting data in various 
    cd steganography-project
    ```
 
-2. Install dependencies:
+2. Create and initializa a venv
+   ```
+	 python -m venv .venv
+	 source .venv/bin/activate
+	 ```
+
+3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
